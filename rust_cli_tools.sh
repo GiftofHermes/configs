@@ -1,5 +1,10 @@
 #!/bin/bash
-sudo apt install exa
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+rustup update
+
+#add to ~/.bashrc -> PATH = "$PATH:~/.cargo/bin"
+
+carog install exa
 cargo install ripgrep
 cargo install --locked bat
 cargo install sd
