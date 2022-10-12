@@ -11,6 +11,8 @@ cargo install sd
 cargo install fd-find
 cargo install kondo
 cargo install tokei
+cargo install cargo-outdated # needs pck something to install. Add that to the config as well
+cargo install cargo-readme
 cargo install zoxide --locked
 # add eval "$(zoxide init bash)" to ~/.bashrc
 cargo install git-delta
