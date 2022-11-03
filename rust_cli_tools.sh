@@ -2,7 +2,7 @@
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 rustup update
 
-sudo apt install build-essential
+apt install build-essential -y
 
 echo 'PATH="$PATH:~/.cargo/bin"' >> ~/.bashrc
 
