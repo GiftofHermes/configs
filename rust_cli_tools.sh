@@ -2,7 +2,7 @@
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 rustup update
 
-echo 'PATH = "$PATH:~/.cargo/bin"' >> ~/.bashrc
+echo 'PATH="$PATH:~/.cargo/bin"' >> ~/.bashrc
 
 cargo install exa
 cargo install ripgrep
