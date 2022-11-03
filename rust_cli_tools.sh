@@ -15,25 +15,25 @@ cargo install cargo-outdated # needs pck something to install. Add that to the c
 cargo install cargo-readme
 cargo install zoxide --locked
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
+
 cargo install git-delta
-add to ~/.gitignore
-#[core]
-#    pager = delta
-#
-#[interactive]
-#    diffFilter = delta --color-only --features=interactive
-#
-#[delta]
-#    features = decorations
-#
-#[delta "interactive"]
-#    keep-plus-minus-markers = false
-#
-#[delta "decorations"]
-#    commit-decoration-style = blue ol
-#    commit-style = raw
-#    file-style = omit
-#    hunk-header-decoration-style = blue box
-#    hunk-header-file-style = red
-#    hunk-header-line-number-style = "#067a00"
-#    hunk-header-style = file line-number syntax
+
+echo "[core]
+        pager = delta
+[interactive]
+        diffFilter = delta --color-only --features=interactive
+[delta]
+        features = decorations
+
+[delta \"interactive\"]
+        keep-plus-minus-markers = false
+
+[delta \"decorations\"]
+        commit-decoration-style = blue ol
+        commit-style = raw
+        file-style = omit
+        hunk-header-decoration-style blue box
+        hunk-header-file-style = red
+        hunk-header-line-number-style = \"#067a00\"
+        hunk-header-style = file line-number syntax
+" >> ~/.gitconfig
