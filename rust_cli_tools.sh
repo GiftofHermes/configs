@@ -4,7 +4,7 @@ rustup update
 
 echo 'PATH = "$PATH:~/.cargo/bin"' >> ~/.bashrc
 
-carog install exa
+cargo install exa
 cargo install ripgrep
 cargo install --locked bat
 cargo install sd
