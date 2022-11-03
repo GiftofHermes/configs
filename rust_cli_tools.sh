@@ -2,6 +2,8 @@
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 rustup update
 
+sudo apt install build-essential
+
 echo 'PATH="$PATH:~/.cargo/bin"' >> ~/.bashrc
 
 cargo install exa
