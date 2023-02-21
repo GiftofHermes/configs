@@ -1,5 +1,5 @@
 #!/bin/bash
-curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh -s -- -y
 rustup update
 
 apt install build-essential -y
