@@ -12,9 +12,7 @@ apt install build-essential -y
 echo 'PATH="$PATH:~/.cargo/bin"' >> ~/.bashrc
 
 cargo install exa
-echo 'alias ll="exa -l -g --git"' >> ~/.bashrc
-echo 'alias llt="exa -1 --tree --git-ignore"' >> ~/.bashrc
-echo 'alias l="exa -l -g --git"' >> ~/.bashrc
+echo 'alias l="exa -l --git"' >> ~/.bashrc
 echo 'alias la="exa -l -a --git"' >> ~/.bashrc
 echo 'alias ll="exa -l -g -a --git"' >> ~/.bashrc
 echo 'alias llt="exa -1 --tree --git-ignore"' >> ~/.bashrc
