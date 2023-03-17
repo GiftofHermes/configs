@@ -37,12 +37,12 @@ echo "[core]
         pager = delta
 [interactive]
         diffFilter = delta --color-only --features=interactive
+[merge]
+        conflictstyle = diff3
 [delta]
-        features = decorations
-
+        features = unobstrusive-line-numbers decorations
 [delta \"interactive\"]
         keep-plus-minus-markers = false
-
 [delta \"decorations\"]
         commit-decoration-style = blue ol
         commit-style = raw
@@ -51,4 +51,14 @@ echo "[core]
         hunk-header-file-style = red
         hunk-header-line-number-style = \"#067a00\"
         hunk-header-style = file line-number syntax
+        side-by-side = true
+[delta \"unobtrusive-line-numbers\"]
+    line-numbers = true
+    line-numbers-minus-style = \"#444444\"
+    line-numbers-zero-style = \"#444444\"
+    line-numbers-plus-style = \"#444444\"
+    line-numbers-left-format = \"{nm\:\>4}┊\"
+    line-numbers-right-format = \"{np\:\>4}│\"
+    line-numbers-left-style = blue
+    line-numbers-right-style = blue
 " >> ~/.gitconfig
