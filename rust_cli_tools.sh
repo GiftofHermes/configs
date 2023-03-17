@@ -57,8 +57,8 @@ echo "[core]
     line-numbers-minus-style = \"#444444\"
     line-numbers-zero-style = \"#444444\"
     line-numbers-plus-style = \"#444444\"
-    line-numbers-left-format = \"{nm\:\>4}┊\"
-    line-numbers-right-format = \"{np\:\>4}│\"
+    line-numbers-left-format = \"{nm:>4}┊\"
+    line-numbers-right-format = \"{np:>4}│\"
     line-numbers-left-style = blue
     line-numbers-right-style = blue
 " >> ~/.gitconfig
