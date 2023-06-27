@@ -28,6 +28,7 @@ cargo install du-dust
 cargo install --locked zellij
 cargo install cargo-outdated # needs pck something to install. Add that to the config as well
 cargo install cargo-readme
+cargo install cargo-watch
 cargo install zoxide --locked
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 
