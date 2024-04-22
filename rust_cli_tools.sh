@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #install git manually
 
 apt install curl
